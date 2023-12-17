@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&family=Silkscreen&display=swap');
+body {
+    justify-content: left, right;
+    background-color: rgb(240, 155, 184);
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+    word-spacing: 40px;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+h1 {
+    color: rgb(0, 250, 250);
+}
+
+header a {
+    font-size: 30px;
+    text-decoration: none;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+footer {
+    padding: 10px;
+    bottom: 0;
+    position: absolute;
+}
+
+a.post {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color: lightblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contenedor {
+    position: relative;
+    /* Agrega otros estilos para el contenedor principal si es necesario */
+}
+
+.perfil {
+    position: absolute;
+    top: 20px; /* Ajusta la distancia desde la parte superior según sea necesario */
+    right: 20px; /* Ajusta la distancia desde la derecha según sea necesario */
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.perfil img {
+    width: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
